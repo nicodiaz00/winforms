@@ -1,0 +1,8 @@
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\ejemploDate\bin\Debug\ejemploDate.exe.config
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\ejemploDate\bin\Debug\ejemploDate.exe
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\ejemploDate\bin\Debug\ejemploDate.pdb
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\ejemploDate\obj\Debug\ejemploDate.csproj.AssemblyReference.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\ejemploDate\obj\Debug\ejemploDate.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\ejemploDate\obj\Debug\ejemploDate.csproj.CoreCompileInputs.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\ejemploDate\obj\Debug\ejemploDate.exe
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\ejemploDate\obj\Debug\ejemploDate.pdb

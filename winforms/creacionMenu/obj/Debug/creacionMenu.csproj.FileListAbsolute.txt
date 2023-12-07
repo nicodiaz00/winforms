@@ -1,0 +1,12 @@
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\creacionMenu\bin\Debug\creacionMenu.exe.config
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\creacionMenu\bin\Debug\creacionMenu.exe
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\creacionMenu\bin\Debug\creacionMenu.pdb
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\creacionMenu\obj\Debug\creacionMenu.csproj.AssemblyReference.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\creacionMenu\obj\Debug\creacionMenu.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\creacionMenu\obj\Debug\creacionMenu.Form1.resources
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\creacionMenu\obj\Debug\creacionMenu.Properties.Resources.resources
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\creacionMenu\obj\Debug\creacionMenu.csproj.GenerateResource.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\creacionMenu\obj\Debug\creacionMenu.csproj.CoreCompileInputs.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\creacionMenu\obj\Debug\creacionMenu.exe
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\creacionMenu\obj\Debug\creacionMenu.pdb
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\creacionMenu\obj\Debug\creacionMenu.frmVentanaPrincipal.resources

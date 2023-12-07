@@ -1,0 +1,11 @@
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\navegacionVentanas\bin\Debug\navegacionVentanas.exe.config
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\navegacionVentanas\bin\Debug\navegacionVentanas.exe
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\navegacionVentanas\bin\Debug\navegacionVentanas.pdb
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\navegacionVentanas\obj\Debug\navegacionVentanas.csproj.AssemblyReference.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\navegacionVentanas\obj\Debug\navegacionVentanas.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\navegacionVentanas\obj\Debug\navegacionVentanas.Form1.resources
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\navegacionVentanas\obj\Debug\navegacionVentanas.Properties.Resources.resources
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\navegacionVentanas\obj\Debug\navegacionVentanas.csproj.GenerateResource.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\navegacionVentanas\obj\Debug\navegacionVentanas.csproj.CoreCompileInputs.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\navegacionVentanas\obj\Debug\navegacionVentanas.exe
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\navegacionVentanas\obj\Debug\navegacionVentanas.pdb

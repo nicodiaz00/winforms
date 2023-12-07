@@ -1,0 +1,11 @@
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\ejemplo2-listView\bin\Debug\ejemplo2-listView.exe.config
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\ejemplo2-listView\bin\Debug\ejemplo2-listView.exe
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\ejemplo2-listView\bin\Debug\ejemplo2-listView.pdb
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\ejemplo2-listView\obj\Debug\ejemplo2-listView.csproj.AssemblyReference.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\ejemplo2-listView\obj\Debug\ejemplo2-listView.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\ejemplo2-listView\obj\Debug\ejemplo2_listView.Form1.resources
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\ejemplo2-listView\obj\Debug\ejemplo2_listView.Properties.Resources.resources
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\ejemplo2-listView\obj\Debug\ejemplo2-listView.csproj.GenerateResource.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\ejemplo2-listView\obj\Debug\ejemplo2-listView.csproj.CoreCompileInputs.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\ejemplo2-listView\obj\Debug\ejemplo2-listView.exe
+C:\Users\Nico\Documents\c#nivelDos\winforms\winforms\ejemplo2-listView\obj\Debug\ejemplo2-listView.pdb
