@@ -1,0 +1,11 @@
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\ejemploUno\bin\Debug\ejemploUno.exe.config
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\ejemploUno\bin\Debug\ejemploUno.exe
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\ejemploUno\bin\Debug\ejemploUno.pdb
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\ejemploUno\obj\Debug\ejemploUno.csproj.AssemblyReference.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\ejemploUno\obj\Debug\ejemploUno.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\ejemploUno\obj\Debug\ejemploUno.Form1.resources
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\ejemploUno\obj\Debug\ejemploUno.Properties.Resources.resources
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\ejemploUno\obj\Debug\ejemploUno.csproj.GenerateResource.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\ejemploUno\obj\Debug\ejemploUno.csproj.CoreCompileInputs.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\ejemploUno\obj\Debug\ejemploUno.exe
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\ejemploUno\obj\Debug\ejemploUno.pdb

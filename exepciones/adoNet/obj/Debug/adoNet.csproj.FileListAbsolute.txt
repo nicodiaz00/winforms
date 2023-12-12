@@ -1,0 +1,16 @@
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\adoNet\bin\Debug\adoNet.exe.config
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\adoNet\bin\Debug\adoNet.exe
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\adoNet\bin\Debug\adoNet.pdb
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\adoNet\obj\Debug\adoNet.csproj.AssemblyReference.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\adoNet\obj\Debug\adoNet.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\adoNet\obj\Debug\adoNet.Form1.resources
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\adoNet\obj\Debug\adoNet.Properties.Resources.resources
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\adoNet\obj\Debug\adoNet.csproj.GenerateResource.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\adoNet\obj\Debug\adoNet.csproj.CoreCompileInputs.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\adoNet\obj\Debug\adoNet.exe
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\adoNet\obj\Debug\adoNet.pdb
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\adoNet\bin\Debug\dominio.dll
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\adoNet\bin\Debug\dominio.pdb
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\adoNet\obj\Debug\adoNet.csproj.CopyComplete
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\adoNet\bin\Debug\negocio.dll
+C:\Users\Nico\Documents\c#nivelDos\winforms\exepciones\adoNet\bin\Debug\negocio.pdb
