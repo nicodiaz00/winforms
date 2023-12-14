@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pokeApp", "pokeApp\pokeApp.csproj", "{DC39D46A-396F-40D5-92DD-13B6B0752E09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dominio", "dominio\dominio.csproj", "{4B9BD334-3291-40C1-AD69-D71896657F78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "negocio", "negocio\negocio.csproj", "{091A8C9C-9F00-4F15-A3D7-3824620FF9B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC39D46A-396F-40D5-92DD-13B6B0752E09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC39D46A-396F-40D5-92DD-13B6B0752E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC39D46A-396F-40D5-92DD-13B6B0752E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC39D46A-396F-40D5-92DD-13B6B0752E09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B9BD334-3291-40C1-AD69-D71896657F78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B9BD334-3291-40C1-AD69-D71896657F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B9BD334-3291-40C1-AD69-D71896657F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B9BD334-3291-40C1-AD69-D71896657F78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{091A8C9C-9F00-4F15-A3D7-3824620FF9B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{091A8C9C-9F00-4F15-A3D7-3824620FF9B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{091A8C9C-9F00-4F15-A3D7-3824620FF9B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{091A8C9C-9F00-4F15-A3D7-3824620FF9B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {586FA0EC-09EE-4C26-8FF6-7BDC78CD65CE}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+C:\Users\Nico\Documents\c#nivelDos\winforms\modeloCapas\pokeApp\bin\Debug\pokeApp.exe.config
+C:\Users\Nico\Documents\c#nivelDos\winforms\modeloCapas\pokeApp\bin\Debug\pokeApp.exe
+C:\Users\Nico\Documents\c#nivelDos\winforms\modeloCapas\pokeApp\bin\Debug\pokeApp.pdb
+C:\Users\Nico\Documents\c#nivelDos\winforms\modeloCapas\pokeApp\bin\Debug\dominio.dll
+C:\Users\Nico\Documents\c#nivelDos\winforms\modeloCapas\pokeApp\bin\Debug\negocio.dll
+C:\Users\Nico\Documents\c#nivelDos\winforms\modeloCapas\pokeApp\bin\Debug\dominio.pdb
+C:\Users\Nico\Documents\c#nivelDos\winforms\modeloCapas\pokeApp\bin\Debug\negocio.pdb
+C:\Users\Nico\Documents\c#nivelDos\winforms\modeloCapas\pokeApp\obj\Debug\pokeApp.csproj.AssemblyReference.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\modeloCapas\pokeApp\obj\Debug\pokeApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\modeloCapas\pokeApp\obj\Debug\pokeApp.Form1.resources
+C:\Users\Nico\Documents\c#nivelDos\winforms\modeloCapas\pokeApp\obj\Debug\pokeApp.Properties.Resources.resources
+C:\Users\Nico\Documents\c#nivelDos\winforms\modeloCapas\pokeApp\obj\Debug\pokeApp.csproj.GenerateResource.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\modeloCapas\pokeApp\obj\Debug\pokeApp.csproj.CoreCompileInputs.cache
+C:\Users\Nico\Documents\c#nivelDos\winforms\modeloCapas\pokeApp\obj\Debug\pokeApp.csproj.CopyComplete
+C:\Users\Nico\Documents\c#nivelDos\winforms\modeloCapas\pokeApp\obj\Debug\pokeApp.exe
+C:\Users\Nico\Documents\c#nivelDos\winforms\modeloCapas\pokeApp\obj\Debug\pokeApp.pdb
