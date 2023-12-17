@@ -38,6 +38,20 @@ namespace negocio
                 throw ex;
             }
         }
+        public void ejecutarAccion() //para ejecutar acciones de tipon NONquery
+        {
+            varComando.Connection = varConexion;
+            try
+            {
+                varConexion.Open();
+                varComando.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
         public void cerrarConexion()
         {   if(varLector!= null)
             {

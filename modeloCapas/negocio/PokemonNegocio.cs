@@ -48,6 +48,29 @@ namespace negocio
 			{
 				varAccesoDatos.cerrarConexion();
 			}
+
+			
         }
+		public void agregarPokemon(Pokemon agregoPokemon)
+		{
+			AccesoDatos variableAccesoDatos = new AccesoDatos(); // creo la variable para acceder al metodo que me permite conectar al servidor
+			                                                     //No creo una lista porque la funcion solo ingresa registros no muestra nada, es una funcion VOID no retonra nada
+			try
+			{
+				variableAccesoDatos.setearConsulta("insert into POKEMONS (Numero, Nombre, Descripcion,Activo,IdTipo,IdDebilidad)values("+ agregoPokemon.Numero + ",'"+ agregoPokemon.Nombre + "','"+agregoPokemon.Descripcion+"',1,@idTipo,@idDebilidad)");
+				variableAccesoDatos.setearParametro("idTipo",agregoPokemon.Tipo.Id);
+				variableAccesoDatos.setearParametro("idDebilidad", agregoPokemon.Debilidad.Id);
+				variableAccesoDatos.ejecutarAccion();
+			}
+			catch (Exception ex)
+			{
+
+				throw ex;
+			}
+			finally
+			{
+				variableAccesoDatos.cerrarConexion();
+			}
+		}
     }
 }

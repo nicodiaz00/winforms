@@ -46,5 +46,11 @@ namespace pokeApp
                 pbxPokemon.Load("https://static.thenounproject.com/png/504708-200.png");
             }
         }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            frmAltaPokemon ventanaAltaPokemon = new frmAltaPokemon();
+            ventanaAltaPokemon.ShowDialog();
+        }
     }
 }

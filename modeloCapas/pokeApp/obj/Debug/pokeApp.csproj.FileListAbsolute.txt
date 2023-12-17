@@ -14,3 +14,4 @@ C:\Users\Nico\Documents\c#nivelDos\winforms\modeloCapas\pokeApp\obj\Debug\pokeAp
 C:\Users\Nico\Documents\c#nivelDos\winforms\modeloCapas\pokeApp\obj\Debug\pokeApp.csproj.CopyComplete
 C:\Users\Nico\Documents\c#nivelDos\winforms\modeloCapas\pokeApp\obj\Debug\pokeApp.exe
 C:\Users\Nico\Documents\c#nivelDos\winforms\modeloCapas\pokeApp\obj\Debug\pokeApp.pdb
+C:\Users\Nico\Documents\c#nivelDos\winforms\modeloCapas\pokeApp\obj\Debug\pokeApp.frmAltaPokemon.resources
