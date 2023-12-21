@@ -10,6 +10,8 @@ namespace dominio
     {
         public int Numero { get; set; }
 
+        public int Id { get; set; }
+
         public string Nombre { get; set; }
 
         public string Descripcion { get; set; }

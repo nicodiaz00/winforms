@@ -14,10 +14,16 @@ namespace pokeApp
 {
     public partial class frmAltaPokemon : Form
     {
+        private Pokemon variablePokemon = null;
         public List<Elemento> listaDeElemento;
         public frmAltaPokemon()
         {
             InitializeComponent();
+        }
+        public frmAltaPokemon(Pokemon parametroPokemon)
+        {
+            InitializeComponent();
+            this.variablePokemon = parametroPokemon;
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
@@ -27,19 +33,36 @@ namespace pokeApp
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            Pokemon nuevoPokemon = new Pokemon();
+            //Pokemon nuevoPokemon = new Pokemon();
             PokemonNegocio varPokemonNegocio = new PokemonNegocio();
             try
             {
-                nuevoPokemon.Numero = int.Parse(txtNumero.Text);
-                nuevoPokemon.Nombre = txtNombre.Text;
-                nuevoPokemon.Descripcion = txtDescripcion.Text;
-                nuevoPokemon.Tipo = (Elemento)cboTipo.SelectedItem;
-                nuevoPokemon.Debilidad = (Elemento)cboTipo.SelectedItem;
+                if(variablePokemon == null)
+                {
+                    variablePokemon = new Pokemon();
 
-                varPokemonNegocio.agregarPokemon(nuevoPokemon);
-                MessageBox.Show("add");
-                Close();
+                    variablePokemon.Numero = int.Parse(txtNumero.Text);
+                    variablePokemon.Nombre = txtNombre.Text;
+                    variablePokemon.Descripcion = txtDescripcion.Text;
+                    variablePokemon.UrlImagen = txtUrlImagen.Text;
+                    variablePokemon.Tipo = (Elemento)cboTipo.SelectedItem;
+                    variablePokemon.Debilidad = (Elemento)cboTipo.SelectedItem;
+                    if (variablePokemon.Id != 0)
+                    {
+                        varPokemonNegocio.modificarPokemon(variablePokemon);
+                        MessageBox.Show("Modificado");
+                    }
+                    else
+                    {
+                        varPokemonNegocio.agregarPokemon(variablePokemon);
+                        MessageBox.Show("add");
+                    }
+                    
+
+                    
+                    Close();
+                }
+                
             }
             catch (Exception ex)
             {
@@ -56,7 +79,23 @@ namespace pokeApp
             {
 
                 cboTipo.DataSource = variableElemento.listarElemento();
+                cboTipo.ValueMember = "Id";
+                cboTipo.DisplayMember = "Descripcion";
+
                 cboDebilidad.DataSource = variableElemento.listarElemento();
+                cboDebilidad.ValueMember= "Id";
+                cboDebilidad.DisplayMember = "Descripcion";
+
+                if(variablePokemon != null)
+                {
+                    txtNumero.Text = variablePokemon.Numero.ToString();
+                    txtNombre.Text = variablePokemon.Nombre;
+                    txtDescripcion.Text = variablePokemon.Descripcion;
+                    txtUrlImagen.Text = variablePokemon.UrlImagen;
+                    imgLoad(variablePokemon.UrlImagen);
+                    cboTipo.SelectedValue=variablePokemon.Tipo.Id;
+                    cboDebilidad.SelectedValue =variablePokemon.Debilidad.Id;
+                }
 
             }
             catch (Exception ex)
@@ -65,6 +104,24 @@ namespace pokeApp
                  MessageBox.Show(ex.ToString());
             }
             
+        }
+
+        private void txtUrlImagen_Leave(object sender, EventArgs e)
+        {
+            imgLoad(txtUrlImagen.Text);
+        }
+        private void imgLoad(string img)
+        {
+            try
+            {
+                pbxUrlImagen.Load(img);
+            }
+
+            catch (Exception ex)
+            {
+
+                pbxUrlImagen.Load("https://static.thenounproject.com/png/504708-200.png");
+            }
         }
     }
 }

@@ -19,13 +19,26 @@ namespace pokeApp
         {
             InitializeComponent();
         }
+        private void cargarLista()
+        {
+            PokemonNegocio varPokemonNegocio = new PokemonNegocio();
+            try
+            {
+                listaPokemon = varPokemonNegocio.listarPokemon();
+                dgvPokemon.DataSource = listaPokemon;
+                imgLoad(listaPokemon[0].UrlImagen);
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+            }
+        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            PokemonNegocio varPokemonNegocio = new PokemonNegocio();
-            listaPokemon = varPokemonNegocio.listarPokemon();
-            dgvPokemon.DataSource = listaPokemon;
-            imgLoad(listaPokemon[0].UrlImagen);
+            cargarLista();
+            
         }
 
         private void dgvPokemon_SelectionChanged(object sender, EventArgs e)
@@ -51,6 +64,42 @@ namespace pokeApp
         {
             frmAltaPokemon ventanaAltaPokemon = new frmAltaPokemon();
             ventanaAltaPokemon.ShowDialog();
+            cargarLista();
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            Pokemon objetoPokemonSeleccionado;
+            objetoPokemonSeleccionado = (Pokemon) dgvPokemon.CurrentRow.DataBoundItem;
+            frmAltaPokemon ventanaModificarPokemon = new frmAltaPokemon(objetoPokemonSeleccionado);
+            ventanaModificarPokemon.ShowDialog();
+            cargarLista();
+
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            PokemonNegocio variableNegocio = new PokemonNegocio();  
+            Pokemon pokSeleccionado =new Pokemon();
+            try
+            {   
+                
+                DialogResult respuesta = MessageBox.Show("vas a eliminar un elemento !","eliminando", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                
+                if(respuesta == DialogResult.Yes)
+                {
+                    pokSeleccionado = (Pokemon)dgvPokemon.CurrentRow.DataBoundItem;
+                    variableNegocio.eliminarPokemon(pokSeleccionado.Id);
+                    cargarLista();
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+            }
         }
     }
 }
